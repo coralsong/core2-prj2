@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 </body>
-
-<script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
-<script src="p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
+    <script src="script.js"></script>
 
 
 <div>
@@ -19,10 +18,24 @@
 
 <div class="slider-gallery">
 
+<img src="../folder1/archive/vector1.svg">
+
   <div class="slider-card">
     <label>Slider 1</label>
+
+    <svg width="150" height="100" xmlns="../archive/vecor1.svg">
+  <rect width="100%" height="100%" fill="green" />
+  <circle cx="75" cy="50" r="40" fill="yellow" />
+  <text x="75" y="60" font-size="30" text-anchor="middle" fill="red">SVG</text>
+</svg>
+
+    <img id="nose" src="../folder1/archive/pinocchio1.png">
     <input type="range" class="slider1">
   </div>
+
+<path id="nosePath" d="M10 50 L120 50" />
+
+
 
   <div class="slider-card">
     <label>Slider 2</label>
