@@ -90,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+// slider2
 const toggle = document.getElementById('slider2');
 const sunImg = document.getElementById('sunImg');
 const moonImg = document.getElementById('moonImg');
@@ -97,4 +98,14 @@ const moonImg = document.getElementById('moonImg');
 toggle.addEventListener('click', () => {
 sunImg.classList.toggle('active');
 moonImg.classList.toggle('active');
+});
+
+// slider 3
+const slider3 = document.getElementById('slider3');
+const appleImg = document.getElementById('apple');
+const apple3Img = document.getElementById('apple3');
+
+slider3.addEventListener('click', () => {
+    appleImg.classList.toggle('active');
+    apple3Img.classList.toggle('active');
 });
