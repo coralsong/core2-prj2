@@ -89,3 +89,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 380); 
     }
 });
+
+const toggle = document.getElementById('slider2');
+const sunImg = document.getElementById('sunImg');
+const moonImg = document.getElementById('moonImg');
+
+toggle.addEventListener('click', () => {
+sunImg.classList.toggle('active');
+moonImg.classList.toggle('active');
+});
